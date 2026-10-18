@@ -12,7 +12,7 @@ PlanRec-Agent is a generative recommendation research project with reproducible 
 
 ## Getting started
 
-Install the environment from the repository's Python dependency manifest and run the tests. Do not include real datasets, checkpoints, model exports, run logs, or private workspace materials in a public repository.
+This selected source snapshot is not a complete runnable release. Some retained tests reference omitted modules, including `planrec.data.amazon`, `preprocess_amazon_2014`, and `scripts/fetch_cloud_artifact.py`; the full test suite cannot run from this snapshot. Do not copy private data or workspace materials into this repository to satisfy those imports. A runnable release requires a separately reviewed, self-contained code subset and documented dependencies.
 
 ## Results
 
