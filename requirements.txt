@@ -1,0 +1,7 @@
+transformers>=5.0,<6
+datasets>=3.0,<5
+accelerate>=1.2,<3
+trl>=0.25,<1
+peft>=0.14,<1
+sentencepiece>=0.2
+tiktoken>=0.7
